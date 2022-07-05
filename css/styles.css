@@ -346,8 +346,10 @@ img {
     border-radius: 4px;
 }
 
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients-list-link:hover, 
+.clients-list-link:focus,
+.client-logo.hover,
+.client-logo:focus {
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
 }
